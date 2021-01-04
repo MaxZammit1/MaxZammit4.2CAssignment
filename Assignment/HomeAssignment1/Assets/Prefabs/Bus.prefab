@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7527818614781246693}
   - component: {fileID: 7098206241299145060}
+  - component: {fileID: -4386665761206081912}
   m_Layer: 0
   m_Name: Bus
   m_TagString: Untagged
@@ -25,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207305696293966210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4842, y: -1.513, z: 0}
-  m_LocalScale: {x: 1.3485, y: 1.4093, z: 1}
+  m_LocalPosition: {x: -6.4842, y: -2.9051, z: 0}
+  m_LocalScale: {x: 1.3485, y: -1.1450562, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,3 +83,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4386665761206081912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207305696293966210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60a32cb5de544b40be04d5d5d1d50e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 2188174592070753574, guid: ec5dbc65a90a451469a75d4fe7f74974, type: 3}
+  - {fileID: 8527226870534685861, guid: aa0371c96ee28d848a8687c08b3953e7, type: 3}
+  - {fileID: 8626837013350343666, guid: 7e02f5856214b9340b54c346f7a59d04, type: 3}
+  enemyMoveSpeed: 2

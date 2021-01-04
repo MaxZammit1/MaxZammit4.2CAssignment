@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173657933483394064}
   - component: {fileID: 8921580623923602358}
+  - component: {fileID: 1822440838630779972}
   m_Layer: 0
   m_Name: barrier-removebg-preview (1) (1)
   m_TagString: Untagged
@@ -82,3 +83,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1822440838630779972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616271544183545952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60a32cb5de544b40be04d5d5d1d50e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 8830859263964957633, guid: 54e9efe1f8a8f2b499bf3509f127592b, type: 3}
+  - {fileID: 6879095692138155115, guid: 5a6870a342fb48e43b29a8b769e6b33a, type: 3}
+  - {fileID: 7004543868515877625, guid: 8154d9a28dcb08f47987032dcb1e948b, type: 3}
+  enemyMoveSpeed: 2

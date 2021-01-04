@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3728379640026715952}
   - component: {fileID: 2590968162078207614}
+  - component: {fileID: 3842418396771717998}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -82,3 +83,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3842418396771717998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2898775160483105667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60a32cb5de544b40be04d5d5d1d50e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 53022943033607083, guid: 4e1482b35b16b5940b85791987d5bff1, type: 3}
+  - {fileID: 1103538711739389597, guid: 1b1e5632588a6de4bb67500f219712e3, type: 3}
+  - {fileID: 4418056717806663851, guid: 5e7643655780a424aa6fc4ace655b854, type: 3}
+  enemyMoveSpeed: 2

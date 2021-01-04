@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7688379415916158074}
   - component: {fileID: 265819165019067624}
+  - component: {fileID: -2597160741473560616}
   m_Layer: 0
   m_Name: Cyclist
   m_TagString: Untagged
@@ -82,3 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2597160741473560616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855851525347005629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60a32cb5de544b40be04d5d5d1d50e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 8664366892273275801, guid: fefe1ee69ead6814a902b9a96e889468, type: 3}
+  - {fileID: 4361756993123894067, guid: 815552e66715ecd468523d8831a9b764, type: 3}
+  - {fileID: 1437357951112848612, guid: f84eed9a9ef8cac46bafb1bc8ab05812, type: 3}

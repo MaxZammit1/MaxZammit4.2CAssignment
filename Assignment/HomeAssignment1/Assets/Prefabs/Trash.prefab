@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2928505943859710178}
   - component: {fileID: 2482363920205580619}
+  - component: {fileID: -1499799165704291662}
   m_Layer: 0
   m_Name: Trash
   m_TagString: Untagged
@@ -82,3 +83,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1499799165704291662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100527886814447206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60a32cb5de544b40be04d5d5d1d50e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 3817996418577152532, guid: 26b50f3555c1fd04fadbb73740aa49b9, type: 3}
+  - {fileID: 9180733409817550380, guid: 2e32e9ce98f4e4b488cdc6a91140d67a, type: 3}
+  - {fileID: 5812496992176764160, guid: 143522641dce47740b8326ea68cc4d1b, type: 3}
+  enemyMoveSpeed: 2
