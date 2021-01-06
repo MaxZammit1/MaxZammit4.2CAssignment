@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4904960493888080152}
   - component: {fileID: -2867338613150673572}
   - component: {fileID: -1435500080521058683}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,6 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1efbc936d6b29743a09f3baa6f929c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
+  moveSpeed: 10
+  padding: 0.5
 --- !u!60 &-1435500080521058683
 PolygonCollider2D:
   m_ObjectHideFlags: 0
