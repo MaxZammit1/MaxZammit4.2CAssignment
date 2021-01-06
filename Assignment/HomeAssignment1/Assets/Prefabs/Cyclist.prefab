@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7688379415916158074}
   - component: {fileID: 265819165019067624}
   - component: {fileID: -2597160741473560616}
+  - component: {fileID: -4981699028274853761}
   m_Layer: 0
   m_Name: Cyclist
   m_TagString: Untagged
@@ -96,5 +97,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  enemyMoveSpeed: 2
   waveConfig: {fileID: 11400000, guid: 2afa3ffccb5116f43a5776a5a76e847f, type: 2}
+--- !u!114 &-4981699028274853761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855851525347005629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7452d52ff142cc946aa8c3a0dbcb883a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotCounter: 0
+  minTimeBetweenShots: 1.5
+  maxTimeBetweenShots: 4
+  enemyLaserPrefab: {fileID: 1597433447697790884, guid: 5c65428892407384991ac19cd230a94a,
+    type: 3}
+  enemyLaserSpeed: 1.5
