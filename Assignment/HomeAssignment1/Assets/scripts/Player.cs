@@ -59,6 +59,10 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+
+            FindObjectOfType<Level>().LoadGameOver();
         }
+
+        
     }
 }

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1173657933483394064}
   - component: {fileID: 8921580623923602358}
   - component: {fileID: 1822440838630779972}
-  - component: {fileID: -1119406750425426191}
   - component: {fileID: -8104177948166954679}
   - component: {fileID: 338938756217325213}
+  - component: {fileID: -3988159112481491767}
   m_Layer: 8
   m_Name: Barrier
   m_TagString: Untagged
@@ -100,19 +100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints: []
   waveConfig: {fileID: 11400000, guid: 9d697adc0ed4f4d498fc2623c0c38785, type: 2}
---- !u!114 &-1119406750425426191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8616271544183545952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 2
 --- !u!70 &-8104177948166954679
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -150,3 +137,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3988159112481491767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616271544183545952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 2

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2482363920205580619}
   - component: {fileID: -1499799165704291662}
   - component: {fileID: -9213905629566917736}
-  - component: {fileID: -1107469282858349112}
   - component: {fileID: -7599744652087803842}
   - component: {fileID: -8892200790637989834}
+  - component: {fileID: 5243674458670629731}
   m_Layer: 8
   m_Name: Trash
   m_TagString: Untagged
@@ -119,19 +119,6 @@ MonoBehaviour:
   enemyLaserPrefab: {fileID: 8667931098521577148, guid: ed965d53f554c6b4e8b0a28753422c77,
     type: 3}
   enemyLaserSpeed: 1.5
---- !u!114 &-1107469282858349112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4100527886814447206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 4
 --- !u!70 &-7599744652087803842
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -169,3 +156,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5243674458670629731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100527886814447206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5

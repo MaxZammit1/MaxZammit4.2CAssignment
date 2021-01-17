@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 265819165019067624}
   - component: {fileID: -2597160741473560616}
   - component: {fileID: -4981699028274853761}
-  - component: {fileID: -2221419556945017242}
   - component: {fileID: -1221585116443794778}
   - component: {fileID: -3844978465596553258}
+  - component: {fileID: 8491770344620646344}
   m_Layer: 8
   m_Name: Cyclist
   m_TagString: Untagged
@@ -119,19 +119,6 @@ MonoBehaviour:
   enemyLaserPrefab: {fileID: 1597433447697790884, guid: 5c65428892407384991ac19cd230a94a,
     type: 3}
   enemyLaserSpeed: 1.5
---- !u!114 &-2221419556945017242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855851525347005629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!70 &-1221585116443794778
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -169,3 +156,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8491770344620646344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855851525347005629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1

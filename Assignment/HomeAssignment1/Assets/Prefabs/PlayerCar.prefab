@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4904960493888080152}
   - component: {fileID: -2867338613150673572}
   - component: {fileID: -1435500080521058683}
+  - component: {fileID: -6482526377368916147}
   m_Layer: 9
   m_Name: PlayerCar
   m_TagString: Untagged
@@ -159,3 +160,16 @@ PolygonCollider2D:
       - {x: 0.545, y: -1.75}
       - {x: 0.645, y: -1.67}
       - {x: 0.695, y: -1.5999999}
+--- !u!114 &-6482526377368916147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252695789475887828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c65f6c723ba166418696d4f10882fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 50
