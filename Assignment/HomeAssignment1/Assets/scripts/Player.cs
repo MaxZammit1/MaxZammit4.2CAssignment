@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip playerHit;
     [SerializeField] [Range(0, 1)] float playerHitSound = 0.7f;
 
+    [SerializeField] int scoreValue = 5;
+
     float xMin, xMax;
 
     void Start()
