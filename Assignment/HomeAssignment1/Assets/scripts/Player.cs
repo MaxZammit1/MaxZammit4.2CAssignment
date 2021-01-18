@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    
     [SerializeField] float health = 100f;
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 0.7f;
+
+    [SerializeField] AudioClip playerHit;
+    [SerializeField] [Range(0, 1)] float playerHitSound = 0.7f;
 
     float xMin, xMax;
 
@@ -42,6 +45,7 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D bullet)
     {
         DamageDealer DmgDeal = bullet.gameObject.GetComponent<DamageDealer>();
+        AudioSource.PlayClipAtPoint(playerHit, Camera.main.transform.position, playerHitSound);
 
         if (!DmgDeal)
         {
@@ -49,6 +53,8 @@ public class Player : MonoBehaviour
         }
 
         ProcessHit(DmgDeal);
+
+        Destroy(bullet.gameObject);
 
     }
 

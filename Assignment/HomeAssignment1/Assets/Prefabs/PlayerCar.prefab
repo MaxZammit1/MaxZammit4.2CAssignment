@@ -100,6 +100,8 @@ MonoBehaviour:
   health: 10
   moveSpeed: 10
   padding: 0.5
+  playerHit: {fileID: 8300000, guid: 3c0ea075a879a074d9d409c8ff8d209c, type: 3}
+  playerHitSound: 0.7
 --- !u!60 &-1435500080521058683
 PolygonCollider2D:
   m_ObjectHideFlags: 0
