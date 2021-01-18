@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2482363920205580619}
   - component: {fileID: -1499799165704291662}
   - component: {fileID: -9213905629566917736}
-  - component: {fileID: -7599744652087803842}
   - component: {fileID: -8892200790637989834}
   - component: {fileID: 5243674458670629731}
+  - component: {fileID: -1396483529253558453}
   m_Layer: 8
   m_Name: Trash
   m_TagString: Untagged
@@ -119,22 +119,6 @@ MonoBehaviour:
   enemyLaserPrefab: {fileID: 8667931098521577148, guid: ed965d53f554c6b4e8b0a28753422c77,
     type: 3}
   enemyLaserSpeed: 1.5
---- !u!70 &-7599744652087803842
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4100527886814447206}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6599998, y: 2.0599997}
-  m_Direction: 0
 --- !u!50 &-8892200790637989834
 Rigidbody2D:
   serializedVersion: 4
@@ -169,3 +153,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!60 &-1396483529253558453
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100527886814447206}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.66, y: 2.06}
+    newSize: {x: 1.66, y: 2.06}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48999998, y: -0.42}
+      - {x: 0.58, y: 0.099999994}
+      - {x: 0.59, y: 0.19999999}
+      - {x: 0.76, y: 0.25}
+      - {x: 0.83, y: 0.34}
+      - {x: 0.83, y: 0.51}
+      - {x: 0.81, y: 0.53999996}
+      - {x: 0.66999996, y: 0.71}
+      - {x: 0.53, y: 0.79999995}
+      - {x: 0.5, y: 0.84}
+      - {x: 0.47, y: 0.98999995}
+      - {x: 0.32999998, y: 1.02}
+      - {x: 0.25, y: 1.03}
+      - {x: 0.02, y: 1.03}
+      - {x: -0.089999996, y: 0.94}
+      - {x: -0.32, y: 0.88}
+      - {x: -0.47, y: 0.79999995}
+      - {x: -0.57, y: 0.65}
+      - {x: -0.7, y: 0.59999996}
+      - {x: -0.78999996, y: 0.52}
+      - {x: -0.83, y: 0.45}
+      - {x: -0.83, y: 0.34}
+      - {x: -0.78, y: 0.22999999}
+      - {x: -0.72999996, y: 0.14999999}
+      - {x: -0.65, y: -0.31}
+      - {x: -0.59999996, y: -0.65999997}
+      - {x: -0.59, y: -0.78}
+      - {x: -0.63, y: -0.87}
+      - {x: -0.58, y: -0.9}
+      - {x: -0.39, y: -0.97999996}
+      - {x: -0.22, y: -1.01}
+      - {x: 0.07, y: -1.01}
+      - {x: 0.19, y: -0.98999995}
+      - {x: 0.28, y: -0.96}
+      - {x: 0.42, y: -0.84}
