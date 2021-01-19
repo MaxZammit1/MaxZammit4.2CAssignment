@@ -33,7 +33,7 @@ public class Level : MonoBehaviour
 
     public static void WinnerScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
 
     public void QuitGame()
