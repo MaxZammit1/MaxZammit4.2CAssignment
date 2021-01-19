@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Shredder : MonoBehaviour
 {
+    [SerializeField] AudioClip playerHit;
+    [SerializeField] [Range(0, 1)] float playerHitSound = 0.7f;
 
     [SerializeField] int scoreValue = 5;
 
@@ -12,6 +14,8 @@ public class Shredder : MonoBehaviour
         if (collision.GetComponent<PolygonCollider2D>())
         {
             FindObjectOfType<GameSession>().AddToScore(scoreValue);
+
+            AudioSource.PlayClipAtPoint(playerHit, Camera.main.transform.position, playerHitSound);
 
         }
 

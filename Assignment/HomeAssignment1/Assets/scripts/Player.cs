@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     
-    [SerializeField] float health = 100f;
+    [SerializeField] int health = 50;
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 0.7f;
 
@@ -13,6 +13,9 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float playerHitSound = 0.7f;
 
     [SerializeField] int scoreValue = 5;
+
+    [SerializeField] GameObject deathVFX;
+    [SerializeField] float explosionDuration = 2f;
 
     float xMin, xMax;
 
@@ -24,6 +27,11 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
     private void SetUpMoveBoundaries()
@@ -64,9 +72,13 @@ public class Player : MonoBehaviour
     {
         health -= dmgDeal.GetDamage();
 
+        GameObject explosion = Instantiate(deathVFX, transform.position, Quaternion.identity);
+        Destroy(explosion, explosionDuration);
+
         if (health <= 0)
         {
             Destroy(gameObject);
+
 
             FindObjectOfType<Level>().LoadGameOver();
         }

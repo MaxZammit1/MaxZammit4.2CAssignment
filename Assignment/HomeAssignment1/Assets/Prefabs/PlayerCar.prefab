@@ -97,11 +97,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1efbc936d6b29743a09f3baa6f929c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 50
   moveSpeed: 10
   padding: 0.5
   playerHit: {fileID: 8300000, guid: 3c0ea075a879a074d9d409c8ff8d209c, type: 3}
   playerHitSound: 0.7
+  scoreValue: 5
+  deathVFX: {fileID: 8255782386942755932, guid: 332ca9236faa2fd4ebb3311fded66df0,
+    type: 3}
+  explosionDuration: 2
 --- !u!60 &-1435500080521058683
 PolygonCollider2D:
   m_ObjectHideFlags: 0

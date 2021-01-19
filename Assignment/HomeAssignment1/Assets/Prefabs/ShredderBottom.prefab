@@ -70,3 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a9b2e8084d64a4c876242da9542775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHit: {fileID: 8300000, guid: 9bbec376f76dbe747b6a792bbe6e074f, type: 3}
+  playerHitSound: 0.7
+  scoreValue: 5

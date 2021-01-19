@@ -111,8 +111,9 @@ GameObject:
   - component: {fileID: 5040294772916496684}
   - component: {fileID: 1344619410941628037}
   - component: {fileID: 4300078996502611456}
+  - component: {fileID: 351364168}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -179,3 +180,15 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0000
+--- !u!114 &351364168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321515503648288191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0454599efc18947b5939b7b056284b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
