@@ -224,7 +224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0062005, y: -411}
+  m_AnchoredPosition: {x: 0.0062005, y: -268}
   m_SizeDelta: {x: 1080, y: 445.034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &552610581
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -94.84225, z: 0, w: 136.99435}
+  m_margin: {x: 0, y: -94.84225, z: 0, w: 436.30338}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -416,7 +416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 221.334, y: 643.9596}
+  m_AnchoredPosition: {x: 221.334, y: 469}
   m_SizeDelta: {x: 637.33, y: 341.319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564317348
@@ -467,8 +467,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 140
-  m_fontSizeBase: 140
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -445.5442, y: -51.93852, z: 0, w: -43.447365}
+  m_margin: {x: -445.5442, y: 329.3241, z: 0, w: -43.447365}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -551,7 +551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0023667, y: 345.872}
+  m_AnchoredPosition: {x: 0.0023667, y: 171}
   m_SizeDelta: {x: 1080, y: 111.353}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &619128287
@@ -576,7 +576,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: df0eb815dfd8394458ac4be316b31d0b, type: 3}
-    m_FontSize: 100
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -607,6 +607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300078996502611456, guid: 3e1a11c0be7eb4343954817c6b008203,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4547668074555586497, guid: 3e1a11c0be7eb4343954817c6b008203,
         type: 3}
@@ -715,13 +720,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5040294772916496684, guid: 3e1a11c0be7eb4343954817c6b008203,
         type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 140.9213
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040294772916496684, guid: 3e1a11c0be7eb4343954817c6b008203,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 46.1737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040294772916496684, guid: 3e1a11c0be7eb4343954817c6b008203,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -529
+      value: -540
       objectReference: {fileID: 0}
     - target: {fileID: 5040294772916496684, guid: 3e1a11c0be7eb4343954817c6b008203,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -786
+      value: -192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e1a11c0be7eb4343954817c6b008203, type: 3}
@@ -760,7 +775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0062005, y: -635}
+  m_AnchoredPosition: {x: 0.0062005, y: -179}
   m_SizeDelta: {x: 1080, y: 264.879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965588065
@@ -904,7 +919,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 2.539756}
+  m_margin: {x: 0, y: 92.64327, z: 0, w: 2.539756}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
