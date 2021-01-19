@@ -31,7 +31,11 @@ public class GameSession : MonoBehaviour
     public void AddToScore(int scoreValue)
     {
         score += scoreValue;
-        print(score);
+
+        if (score >= 100)
+        {
+            Level.WinnerScene();
+        }
     }
 
     public void ResetGame()

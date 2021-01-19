@@ -11,7 +11,7 @@ public class Level : MonoBehaviour
     IEnumerator WaitAndLoad()
     {
         yield return new WaitForSeconds(delayInSeconds);
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene(2);
     }
 
     public void LoadStartMenu()
@@ -21,7 +21,7 @@ public class Level : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(1);
 
         FindObjectOfType<GameSession>().ResetGame();
     }
@@ -29,6 +29,11 @@ public class Level : MonoBehaviour
     public void LoadGameOver()
     {
         StartCoroutine(WaitAndLoad());
+    }
+
+    public static void WinnerScene()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
